@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13756"/>
+    </dependencies>
+    <scenes>
+        <!--Shoppy-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Shoppy" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Shoppy_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="RbN-FZ-aFc">
+                            <items>
+                                <table alignment="left" id="s1r-JP-kcM">
+                                    <items>
+                                        <tableRow identifier="ShoppyRowType" id="JVt-WB-Dib" customClass="ShoppyRowController" customModule="Shoppy_WatchKit_App_Extension">
+                                            <group key="rootItem" width="1" alignment="left" layout="vertical" id="uGC-1k-ta7">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="ShoppingListItem" textAlignment="left" numberOfLines="0" id="a2H-nh-iVn">
+                                                        <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                            <connections>
+                                                <outlet property="itemLabel" destination="a2H-nh-iVn" id="Ato-tK-iVU"/>
+                                                <outlet property="rowGroup" destination="uGC-1k-ta7" id="OTd-oQ-qyF"/>
+                                            </connections>
+                                        </tableRow>
+                                    </items>
+                                </table>
+                            </items>
+                        </group>
+                        <group width="1" height="100" alignment="left" id="rHc-eU-XkW">
+                            <items>
+                                <label alignment="center" verticalAlignment="center" text="Loading data..." id="mCL-U2-Nff">
+                                    <color key="textColor" red="0.99282687902450562" green="0.0053501073271036148" blue="0.29345676302909851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <menu key="menu" id="gtb-bA-JgG">
+                        <items>
+                            <menuItem title="Add Item" icon="add" id="5V1-Uj-2Pr">
+                                <connections>
+                                    <action selector="addMenuItem" destination="AgC-eL-Hgc" id="Iuz-SN-Tud"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Clear Purchased" icon="trash" id="Tzi-e9-8Gh">
+                                <connections>
+                                    <action selector="clearMenuItem" destination="AgC-eL-Hgc" id="k6u-KF-27X"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Refresh List" icon="repeat" id="gIN-d3-cn9">
+                                <connections>
+                                    <action selector="refreshMenuItem" destination="AgC-eL-Hgc" id="4KT-cW-gTa"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="loadingGroup" destination="rHc-eU-XkW" id="4b3-q8-cTB"/>
+                        <outlet property="loadingGroupLabel" destination="mCL-U2-Nff" id="irX-Us-4ma"/>
+                        <outlet property="resultsGroup" destination="RbN-FZ-aFc" id="na5-en-CrF"/>
+                        <outlet property="table" destination="s1r-JP-kcM" id="WmL-vk-58n"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="Shoppy" id="JfB-70-Muf"/>
+                    <color key="backgroundColor" red="0.21865789289927329" green="0.54544616954443359" blue="0.8416932225227356" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <edgeInsets key="margins" left="4" right="4" top="1" bottom="1"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+    </scenes>
+</document>

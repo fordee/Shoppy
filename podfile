@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+
+
+target 'Shoppy' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+	platform :ios, 9.0
+  use_frameworks!
+
+  # Pods for Shoppy
+  pod 'AWSCognito'
+  pod 'AWSCore'
+	pod 'Auth0', '~> 1.9'
+	pod 'SimpleKeychain', '~> 0.7'
+	pod 'KeychainSwift', '~> 10.0'
+
+  target 'ShoppyTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'Shoppy WatchKit App' do
+
+end
+
+target 'Shoppy WatchKit App Extension' do
+	# Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+	platform :watchos, 4.2
+	use_frameworks!
+
+	# Pods for Shoppy
+	pod 'Auth0', '~> 1.9'
+	pod 'SimpleKeychain', '~> 0.7'
+	pod 'KeychainSwift', '~> 10.0'
+
+end
+

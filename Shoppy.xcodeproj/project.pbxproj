@@ -1,0 +1,1110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491B30D2201D3C6B008D9214 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B30D1201D3C6A008D9214 /* AddViewController.swift */; };
+		492537BD2028C03E005196F2 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492537BC2028C03E005196F2 /* SessionManager.swift */; };
+		492537BF2028C07F005196F2 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 492537BE2028C07F005196F2 /* Auth0.plist */; };
+		492537C12028C1FB005196F2 /* AlertController+Loading.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492537C02028C1FB005196F2 /* AlertController+Loading.swift.swift */; };
+		492C22CD2001A0CE00F1937E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492C22CB2001A0CE00F1937E /* Interface.storyboard */; };
+		492C22CF2001A0CE00F1937E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492C22CE2001A0CE00F1937E /* Assets.xcassets */; };
+		492C22D62001A0CF00F1937E /* Shoppy WatchKit App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 492C22D52001A0CF00F1937E /* Shoppy WatchKit App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		492C22DB2001A0CF00F1937E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C22DA2001A0CF00F1937E /* InterfaceController.swift */; };
+		492C22DD2001A0CF00F1937E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C22DC2001A0CF00F1937E /* ExtensionDelegate.swift */; };
+		492C22DF2001A0CF00F1937E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C22DE2001A0CF00F1937E /* NotificationController.swift */; };
+		492C22E12001A0CF00F1937E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492C22E02001A0CF00F1937E /* Assets.xcassets */; };
+		492C22E62001A0CF00F1937E /* Shoppy WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 492C22C92001A0CE00F1937E /* Shoppy WatchKit App.app */; };
+		492C22F12001A18E00F1937E /* Shoppy Row Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C22EF2001A11F00F1937E /* Shoppy Row Controller.swift */; };
+		492C22F42001A2DF00F1937E /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C22F32001A2DF00F1937E /* ShoppingList.swift */; };
+		492C22F52001A4BD00F1937E /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C22F32001A2DF00F1937E /* ShoppingList.swift */; };
+		492C22F62001A4C000F1937E /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C22F32001A2DF00F1937E /* ShoppingList.swift */; };
+		4946A2A4203743FA00D6132D /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946A2A3203743FA00D6132D /* WebService.swift */; };
+		4946A2A62037549600D6132D /* ShoppyWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946A2A52037549600D6132D /* ShoppyWebService.swift */; };
+		4946A2A7203782F100D6132D /* ShoppyWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946A2A52037549600D6132D /* ShoppyWebService.swift */; };
+		4946A2A8203782FE00D6132D /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946A2A3203743FA00D6132D /* WebService.swift */; };
+		49546934200E631E00F52B97 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49546933200E631E00F52B97 /* ToDo.swift */; };
+		49546935200E686900F52B97 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49546933200E631E00F52B97 /* ToDo.swift */; };
+		49546938200E687700F52B97 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49546933200E631E00F52B97 /* ToDo.swift */; };
+		4954693A20129A7C00F52B97 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954693920129A7C00F52B97 /* Helpers.swift */; };
+		49634A5E1FF2CCBD00FF81D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49634A5D1FF2CCBD00FF81D6 /* AppDelegate.swift */; };
+		49634A601FF2CCBD00FF81D6 /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49634A5F1FF2CCBD00FF81D6 /* ShoppingListViewController.swift */; };
+		49634A631FF2CCBD00FF81D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49634A611FF2CCBD00FF81D6 /* Main.storyboard */; };
+		49634A651FF2CCBD00FF81D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49634A641FF2CCBD00FF81D6 /* Assets.xcassets */; };
+		49634A681FF2CCBD00FF81D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49634A661FF2CCBD00FF81D6 /* LaunchScreen.storyboard */; };
+		49634A731FF2CCBD00FF81D6 /* ShoppyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49634A721FF2CCBD00FF81D6 /* ShoppyTests.swift */; };
+		4983BA7920165BFC00289336 /* FloatingAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4983BA7820165BFC00289336 /* FloatingAddButton.swift */; };
+		49D0BE81201E354C00DBF915 /* DimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0BE80201E354C00DBF915 /* DimmingPresentationController.swift */; };
+		49D0BE84201E3DE600DBF915 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0BE83201E3DE600DBF915 /* GradientView.swift */; };
+		49D0BE86201E3EA200DBF915 /* BounceAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0BE85201E3EA200DBF915 /* BounceAnimationController.swift */; };
+		49D0BE88201E40B400DBF915 /* SlideOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0BE87201E40B400DBF915 /* SlideOutAnimationController.swift */; };
+		49D0BE8A201F865500DBF915 /* SlideInAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0BE89201F865500DBF915 /* SlideInAnimationController.swift */; };
+		49E1451B20222097006346D2 /* FrequentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E1451A20222097006346D2 /* FrequentItem.swift */; };
+		49E1451C202223A1006346D2 /* FrequentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E1451A20222097006346D2 /* FrequentItem.swift */; };
+		6B79352B0CED6C90B700E9BD /* Pods_Shoppy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5F2C670A5AABCF8761CB2 /* Pods_Shoppy.framework */; };
+		B45D1B3827D609A7BBF9D263 /* libPods-Shoppy WatchKit App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8B767C32C8E8E37E08DF50 /* libPods-Shoppy WatchKit App.a */; };
+		C7E0D86B9CD1E03A2ACFEE58 /* Pods_ShoppyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE5BA67C6BFEA7F7109F8EF /* Pods_ShoppyTests.framework */; };
+		EBC9957AA4AA077BF4798EDB /* Pods_Shoppy_WatchKit_App_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D057AD77FA6F386452A600C6 /* Pods_Shoppy_WatchKit_App_Extension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		492C22D72001A0CF00F1937E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49634A521FF2CCBD00FF81D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492C22D42001A0CF00F1937E;
+			remoteInfo = "Shoppy WatchKit App Extension";
+		};
+		492C22E42001A0CF00F1937E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49634A521FF2CCBD00FF81D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492C22C82001A0CE00F1937E;
+			remoteInfo = "Shoppy WatchKit App";
+		};
+		49634A6F1FF2CCBD00FF81D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49634A521FF2CCBD00FF81D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49634A591FF2CCBD00FF81D6;
+			remoteInfo = Shoppy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		492C22EC2001A0CF00F1937E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				492C22D62001A0CF00F1937E /* Shoppy WatchKit App Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C22EE2001A0CF00F1937E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				492C22E62001A0CF00F1937E /* Shoppy WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A8B767C32C8E8E37E08DF50 /* libPods-Shoppy WatchKit App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shoppy WatchKit App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E5F2C670A5AABCF8761CB2 /* Pods_Shoppy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shoppy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3768E93A5AB56FA9D51E8CFE /* Pods-ShoppyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppyTests/Pods-ShoppyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4904A21F2013CDF10021EF08 /* Shoppy WatchKit App Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Shoppy WatchKit App Extension.entitlements"; sourceTree = "<group>"; };
+		4904A2202013CE160021EF08 /* Shoppy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shoppy.entitlements; sourceTree = "<group>"; };
+		491B30D1201D3C6A008D9214 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		492537BC2028C03E005196F2 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		492537BE2028C07F005196F2 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		492537C02028C1FB005196F2 /* AlertController+Loading.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertController+Loading.swift.swift"; sourceTree = "<group>"; };
+		492C22C92001A0CE00F1937E /* Shoppy WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoppy WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		492C22CC2001A0CE00F1937E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		492C22CE2001A0CE00F1937E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		492C22D02001A0CE00F1937E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492C22D52001A0CF00F1937E /* Shoppy WatchKit App Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Shoppy WatchKit App Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		492C22DA2001A0CF00F1937E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		492C22DC2001A0CF00F1937E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		492C22DE2001A0CF00F1937E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		492C22E02001A0CF00F1937E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		492C22E22001A0CF00F1937E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492C22E32001A0CF00F1937E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		492C22EF2001A11F00F1937E /* Shoppy Row Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shoppy Row Controller.swift"; sourceTree = "<group>"; };
+		492C22F32001A2DF00F1937E /* ShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
+		4946A2A3203743FA00D6132D /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		4946A2A52037549600D6132D /* ShoppyWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppyWebService.swift; sourceTree = "<group>"; };
+		49546933200E631E00F52B97 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		4954693920129A7C00F52B97 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		49634A5A1FF2CCBD00FF81D6 /* Shoppy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoppy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49634A5D1FF2CCBD00FF81D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49634A5F1FF2CCBD00FF81D6 /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		49634A621FF2CCBD00FF81D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49634A641FF2CCBD00FF81D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49634A671FF2CCBD00FF81D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49634A691FF2CCBD00FF81D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49634A6E1FF2CCBD00FF81D6 /* ShoppyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49634A721FF2CCBD00FF81D6 /* ShoppyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppyTests.swift; sourceTree = "<group>"; };
+		49634A741FF2CCBD00FF81D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4983BA7820165BFC00289336 /* FloatingAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingAddButton.swift; sourceTree = "<group>"; };
+		49D0BE80201E354C00DBF915 /* DimmingPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmingPresentationController.swift; sourceTree = "<group>"; };
+		49D0BE83201E3DE600DBF915 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		49D0BE85201E3EA200DBF915 /* BounceAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceAnimationController.swift; sourceTree = "<group>"; };
+		49D0BE87201E40B400DBF915 /* SlideOutAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutAnimationController.swift; sourceTree = "<group>"; };
+		49D0BE89201F865500DBF915 /* SlideInAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInAnimationController.swift; sourceTree = "<group>"; };
+		49E1451A20222097006346D2 /* FrequentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequentItem.swift; sourceTree = "<group>"; };
+		6805FA493491E27A2DC8900A /* Pods-Shoppy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shoppy/Pods-Shoppy.debug.xcconfig"; sourceTree = "<group>"; };
+		8148B9A7BB5C760AA3BFBA16 /* Pods-Shoppy WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppy WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shoppy WatchKit App/Pods-Shoppy WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		ABDB1441DCC33F641262B4B9 /* Pods-Shoppy WatchKit App Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppy WatchKit App Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shoppy WatchKit App Extension/Pods-Shoppy WatchKit App Extension.release.xcconfig"; sourceTree = "<group>"; };
+		D029B8EA2183AB8E0F516968 /* Pods-ShoppyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppyTests/Pods-ShoppyTests.release.xcconfig"; sourceTree = "<group>"; };
+		D057AD77FA6F386452A600C6 /* Pods_Shoppy_WatchKit_App_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shoppy_WatchKit_App_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8EC42AD892D43E884D806E /* Pods-Shoppy WatchKit App Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppy WatchKit App Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shoppy WatchKit App Extension/Pods-Shoppy WatchKit App Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E0738E1F93E6E7B4DB0E6C70 /* Pods-Shoppy WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppy WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shoppy WatchKit App/Pods-Shoppy WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		E5C34866E45574B1AD326DC3 /* Pods-Shoppy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shoppy/Pods-Shoppy.release.xcconfig"; sourceTree = "<group>"; };
+		EDE5BA67C6BFEA7F7109F8EF /* Pods_ShoppyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoppyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		492C22D22001A0CF00F1937E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC9957AA4AA077BF4798EDB /* Pods_Shoppy_WatchKit_App_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49634A571FF2CCBD00FF81D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B79352B0CED6C90B700E9BD /* Pods_Shoppy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49634A6B1FF2CCBD00FF81D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E0D86B9CD1E03A2ACFEE58 /* Pods_ShoppyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DC51F2131C05F537E3D492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45D1B3827D609A7BBF9D263 /* libPods-Shoppy WatchKit App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CF2E26F55B900C3BA8DC74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6805FA493491E27A2DC8900A /* Pods-Shoppy.debug.xcconfig */,
+				E5C34866E45574B1AD326DC3 /* Pods-Shoppy.release.xcconfig */,
+				3768E93A5AB56FA9D51E8CFE /* Pods-ShoppyTests.debug.xcconfig */,
+				D029B8EA2183AB8E0F516968 /* Pods-ShoppyTests.release.xcconfig */,
+				DB8EC42AD892D43E884D806E /* Pods-Shoppy WatchKit App Extension.debug.xcconfig */,
+				ABDB1441DCC33F641262B4B9 /* Pods-Shoppy WatchKit App Extension.release.xcconfig */,
+				8148B9A7BB5C760AA3BFBA16 /* Pods-Shoppy WatchKit App.debug.xcconfig */,
+				E0738E1F93E6E7B4DB0E6C70 /* Pods-Shoppy WatchKit App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		491B30D0201D3C1D008D9214 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49634A5F1FF2CCBD00FF81D6 /* ShoppingListViewController.swift */,
+				491B30D1201D3C6A008D9214 /* AddViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		492C22CA2001A0CE00F1937E /* Shoppy WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				492C22CB2001A0CE00F1937E /* Interface.storyboard */,
+				492C22CE2001A0CE00F1937E /* Assets.xcassets */,
+				492C22D02001A0CE00F1937E /* Info.plist */,
+			);
+			path = "Shoppy WatchKit App";
+			sourceTree = "<group>";
+		};
+		492C22D92001A0CF00F1937E /* Shoppy WatchKit App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4904A21F2013CDF10021EF08 /* Shoppy WatchKit App Extension.entitlements */,
+				492C22DA2001A0CF00F1937E /* InterfaceController.swift */,
+				492C22EF2001A11F00F1937E /* Shoppy Row Controller.swift */,
+				492C22DC2001A0CF00F1937E /* ExtensionDelegate.swift */,
+				492C22DE2001A0CF00F1937E /* NotificationController.swift */,
+				492C22E02001A0CF00F1937E /* Assets.xcassets */,
+				492C22E22001A0CF00F1937E /* Info.plist */,
+				492C22E32001A0CF00F1937E /* PushNotificationPayload.apns */,
+			);
+			path = "Shoppy WatchKit App Extension";
+			sourceTree = "<group>";
+		};
+		492C22F22001A2C800F1937E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				492C22F32001A2DF00F1937E /* ShoppingList.swift */,
+				49546933200E631E00F52B97 /* ToDo.swift */,
+				4954693920129A7C00F52B97 /* Helpers.swift */,
+				49E1451A20222097006346D2 /* FrequentItem.swift */,
+				4946A2A3203743FA00D6132D /* WebService.swift */,
+				4946A2A52037549600D6132D /* ShoppyWebService.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		49634A511FF2CCBD00FF81D6 = {
+			isa = PBXGroup;
+			children = (
+				492C22F22001A2C800F1937E /* Shared */,
+				49634A5C1FF2CCBD00FF81D6 /* Shoppy */,
+				49634A711FF2CCBD00FF81D6 /* ShoppyTests */,
+				492C22CA2001A0CE00F1937E /* Shoppy WatchKit App */,
+				492C22D92001A0CF00F1937E /* Shoppy WatchKit App Extension */,
+				49634A5B1FF2CCBD00FF81D6 /* Products */,
+				04CF2E26F55B900C3BA8DC74 /* Pods */,
+				65808B440D96E3E14E82A387 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49634A5B1FF2CCBD00FF81D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49634A5A1FF2CCBD00FF81D6 /* Shoppy.app */,
+				49634A6E1FF2CCBD00FF81D6 /* ShoppyTests.xctest */,
+				492C22C92001A0CE00F1937E /* Shoppy WatchKit App.app */,
+				492C22D52001A0CF00F1937E /* Shoppy WatchKit App Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49634A5C1FF2CCBD00FF81D6 /* Shoppy */ = {
+			isa = PBXGroup;
+			children = (
+				4904A2202013CE160021EF08 /* Shoppy.entitlements */,
+				49634A5D1FF2CCBD00FF81D6 /* AppDelegate.swift */,
+				49634A611FF2CCBD00FF81D6 /* Main.storyboard */,
+				491B30D0201D3C1D008D9214 /* View Controllers */,
+				49D0BE82201E3DD400DBF915 /* Views */,
+				4983BA7720165BE000289336 /* Controls */,
+				49D0BE7F201E352C00DBF915 /* Presentation Controllers */,
+				49634A641FF2CCBD00FF81D6 /* Assets.xcassets */,
+				49634A661FF2CCBD00FF81D6 /* LaunchScreen.storyboard */,
+				49634A691FF2CCBD00FF81D6 /* Info.plist */,
+				492537BE2028C07F005196F2 /* Auth0.plist */,
+				492537BC2028C03E005196F2 /* SessionManager.swift */,
+				492537C02028C1FB005196F2 /* AlertController+Loading.swift.swift */,
+			);
+			path = Shoppy;
+			sourceTree = "<group>";
+		};
+		49634A711FF2CCBD00FF81D6 /* ShoppyTests */ = {
+			isa = PBXGroup;
+			children = (
+				49634A721FF2CCBD00FF81D6 /* ShoppyTests.swift */,
+				49634A741FF2CCBD00FF81D6 /* Info.plist */,
+			);
+			path = ShoppyTests;
+			sourceTree = "<group>";
+		};
+		4983BA7720165BE000289336 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				4983BA7820165BFC00289336 /* FloatingAddButton.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		49D0BE7F201E352C00DBF915 /* Presentation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49D0BE80201E354C00DBF915 /* DimmingPresentationController.swift */,
+				49D0BE85201E3EA200DBF915 /* BounceAnimationController.swift */,
+				49D0BE87201E40B400DBF915 /* SlideOutAnimationController.swift */,
+				49D0BE89201F865500DBF915 /* SlideInAnimationController.swift */,
+			);
+			path = "Presentation Controllers";
+			sourceTree = "<group>";
+		};
+		49D0BE82201E3DD400DBF915 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49D0BE83201E3DE600DBF915 /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65808B440D96E3E14E82A387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17E5F2C670A5AABCF8761CB2 /* Pods_Shoppy.framework */,
+				EDE5BA67C6BFEA7F7109F8EF /* Pods_ShoppyTests.framework */,
+				D057AD77FA6F386452A600C6 /* Pods_Shoppy_WatchKit_App_Extension.framework */,
+				0A8B767C32C8E8E37E08DF50 /* libPods-Shoppy WatchKit App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		492C22C82001A0CE00F1937E /* Shoppy WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492C22ED2001A0CF00F1937E /* Build configuration list for PBXNativeTarget "Shoppy WatchKit App" */;
+			buildPhases = (
+				9219D8FB5F1A27EA93EDAAB9 /* [CP] Check Pods Manifest.lock */,
+				492C22C72001A0CE00F1937E /* Resources */,
+				492C22EC2001A0CF00F1937E /* Embed App Extensions */,
+				79DC51F2131C05F537E3D492 /* Frameworks */,
+				1793681561850578A13AA98C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492C22D82001A0CF00F1937E /* PBXTargetDependency */,
+			);
+			name = "Shoppy WatchKit App";
+			productName = "Shoppy WatchKit App";
+			productReference = 492C22C92001A0CE00F1937E /* Shoppy WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		492C22D42001A0CF00F1937E /* Shoppy WatchKit App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492C22EB2001A0CF00F1937E /* Build configuration list for PBXNativeTarget "Shoppy WatchKit App Extension" */;
+			buildPhases = (
+				17EBA03658D3FF98434D9355 /* [CP] Check Pods Manifest.lock */,
+				492C22D12001A0CF00F1937E /* Sources */,
+				492C22D22001A0CF00F1937E /* Frameworks */,
+				492C22D32001A0CF00F1937E /* Resources */,
+				B33D8A9ECF6E1D141A20A979 /* [CP] Embed Pods Frameworks */,
+				D76157BC15BFC00EBDAD5557 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shoppy WatchKit App Extension";
+			productName = "Shoppy WatchKit App Extension";
+			productReference = 492C22D52001A0CF00F1937E /* Shoppy WatchKit App Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		49634A591FF2CCBD00FF81D6 /* Shoppy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49634A771FF2CCBD00FF81D6 /* Build configuration list for PBXNativeTarget "Shoppy" */;
+			buildPhases = (
+				2A819BD62193183266EF7A13 /* [CP] Check Pods Manifest.lock */,
+				49634A561FF2CCBD00FF81D6 /* Sources */,
+				49634A571FF2CCBD00FF81D6 /* Frameworks */,
+				49634A581FF2CCBD00FF81D6 /* Resources */,
+				B4D919074D923A77AA8D9182 /* [CP] Embed Pods Frameworks */,
+				32640A594F04874E592E9330 /* [CP] Copy Pods Resources */,
+				492C22EE2001A0CF00F1937E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492C22E52001A0CF00F1937E /* PBXTargetDependency */,
+			);
+			name = Shoppy;
+			productName = Shoppy;
+			productReference = 49634A5A1FF2CCBD00FF81D6 /* Shoppy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49634A6D1FF2CCBD00FF81D6 /* ShoppyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49634A7A1FF2CCBD00FF81D6 /* Build configuration list for PBXNativeTarget "ShoppyTests" */;
+			buildPhases = (
+				9A75ABD7D1124A51DBC185DF /* [CP] Check Pods Manifest.lock */,
+				49634A6A1FF2CCBD00FF81D6 /* Sources */,
+				49634A6B1FF2CCBD00FF81D6 /* Frameworks */,
+				49634A6C1FF2CCBD00FF81D6 /* Resources */,
+				96B3D704A5AD48DD85349E9C /* [CP] Embed Pods Frameworks */,
+				C0B90AD0A47C5DF38159C79C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49634A701FF2CCBD00FF81D6 /* PBXTargetDependency */,
+			);
+			name = ShoppyTests;
+			productName = ShoppyTests;
+			productReference = 49634A6E1FF2CCBD00FF81D6 /* ShoppyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49634A521FF2CCBD00FF81D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = 4DWare;
+				TargetAttributes = {
+					492C22C82001A0CE00F1937E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					492C22D42001A0CF00F1937E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					49634A591FF2CCBD00FF81D6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					49634A6D1FF2CCBD00FF81D6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49634A591FF2CCBD00FF81D6;
+					};
+				};
+			};
+			buildConfigurationList = 49634A551FF2CCBD00FF81D6 /* Build configuration list for PBXProject "Shoppy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49634A511FF2CCBD00FF81D6;
+			productRefGroup = 49634A5B1FF2CCBD00FF81D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49634A591FF2CCBD00FF81D6 /* Shoppy */,
+				49634A6D1FF2CCBD00FF81D6 /* ShoppyTests */,
+				492C22C82001A0CE00F1937E /* Shoppy WatchKit App */,
+				492C22D42001A0CF00F1937E /* Shoppy WatchKit App Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		492C22C72001A0CE00F1937E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492C22CF2001A0CE00F1937E /* Assets.xcassets in Resources */,
+				492C22CD2001A0CE00F1937E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C22D32001A0CF00F1937E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492C22E12001A0CF00F1937E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49634A581FF2CCBD00FF81D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49634A681FF2CCBD00FF81D6 /* LaunchScreen.storyboard in Resources */,
+				49634A651FF2CCBD00FF81D6 /* Assets.xcassets in Resources */,
+				49634A631FF2CCBD00FF81D6 /* Main.storyboard in Resources */,
+				492537BF2028C07F005196F2 /* Auth0.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49634A6C1FF2CCBD00FF81D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1793681561850578A13AA98C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoppy WatchKit App/Pods-Shoppy WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17EBA03658D3FF98434D9355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A819BD62193183266EF7A13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32640A594F04874E592E9330 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoppy/Pods-Shoppy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9219D8FB5F1A27EA93EDAAB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96B3D704A5AD48DD85349E9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShoppyTests/Pods-ShoppyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A75ABD7D1124A51DBC185DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B33D8A9ECF6E1D141A20A979 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoppy WatchKit App Extension/Pods-Shoppy WatchKit App Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D919074D923A77AA8D9182 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoppy/Pods-Shoppy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B90AD0A47C5DF38159C79C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShoppyTests/Pods-ShoppyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76157BC15BFC00EBDAD5557 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoppy WatchKit App Extension/Pods-Shoppy WatchKit App Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		492C22D12001A0CF00F1937E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492C22DF2001A0CF00F1937E /* NotificationController.swift in Sources */,
+				492C22F12001A18E00F1937E /* Shoppy Row Controller.swift in Sources */,
+				492C22F62001A4C000F1937E /* ShoppingList.swift in Sources */,
+				49546935200E686900F52B97 /* ToDo.swift in Sources */,
+				4946A2A7203782F100D6132D /* ShoppyWebService.swift in Sources */,
+				492C22DD2001A0CF00F1937E /* ExtensionDelegate.swift in Sources */,
+				49E1451C202223A1006346D2 /* FrequentItem.swift in Sources */,
+				4946A2A8203782FE00D6132D /* WebService.swift in Sources */,
+				492C22DB2001A0CF00F1937E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49634A561FF2CCBD00FF81D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49634A601FF2CCBD00FF81D6 /* ShoppingListViewController.swift in Sources */,
+				4954693A20129A7C00F52B97 /* Helpers.swift in Sources */,
+				49D0BE84201E3DE600DBF915 /* GradientView.swift in Sources */,
+				491B30D2201D3C6B008D9214 /* AddViewController.swift in Sources */,
+				4946A2A4203743FA00D6132D /* WebService.swift in Sources */,
+				49E1451B20222097006346D2 /* FrequentItem.swift in Sources */,
+				49546934200E631E00F52B97 /* ToDo.swift in Sources */,
+				4983BA7920165BFC00289336 /* FloatingAddButton.swift in Sources */,
+				492C22F42001A2DF00F1937E /* ShoppingList.swift in Sources */,
+				492537BD2028C03E005196F2 /* SessionManager.swift in Sources */,
+				49634A5E1FF2CCBD00FF81D6 /* AppDelegate.swift in Sources */,
+				49D0BE8A201F865500DBF915 /* SlideInAnimationController.swift in Sources */,
+				49D0BE86201E3EA200DBF915 /* BounceAnimationController.swift in Sources */,
+				4946A2A62037549600D6132D /* ShoppyWebService.swift in Sources */,
+				49D0BE81201E354C00DBF915 /* DimmingPresentationController.swift in Sources */,
+				492537C12028C1FB005196F2 /* AlertController+Loading.swift.swift in Sources */,
+				49D0BE88201E40B400DBF915 /* SlideOutAnimationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49634A6A1FF2CCBD00FF81D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49634A731FF2CCBD00FF81D6 /* ShoppyTests.swift in Sources */,
+				492C22F52001A4BD00F1937E /* ShoppingList.swift in Sources */,
+				49546938200E687700F52B97 /* ToDo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		492C22D82001A0CF00F1937E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 492C22D42001A0CF00F1937E /* Shoppy WatchKit App Extension */;
+			targetProxy = 492C22D72001A0CF00F1937E /* PBXContainerItemProxy */;
+		};
+		492C22E52001A0CF00F1937E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 492C22C82001A0CE00F1937E /* Shoppy WatchKit App */;
+			targetProxy = 492C22E42001A0CF00F1937E /* PBXContainerItemProxy */;
+		};
+		49634A701FF2CCBD00FF81D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49634A591FF2CCBD00FF81D6 /* Shoppy */;
+			targetProxy = 49634A6F1FF2CCBD00FF81D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		492C22CB2001A0CE00F1937E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492C22CC2001A0CE00F1937E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		49634A611FF2CCBD00FF81D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49634A621FF2CCBD00FF81D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49634A661FF2CCBD00FF81D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49634A671FF2CCBD00FF81D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		492C22E72001A0CF00F1937E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8148B9A7BB5C760AA3BFBA16 /* Pods-Shoppy WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 322WP4362D;
+				IBSC_MODULE = Shoppy_WatchKit_App_Extension;
+				INFOPLIST_FILE = "Shoppy WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = net.4DWare.Shoppy.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		492C22E82001A0CF00F1937E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0738E1F93E6E7B4DB0E6C70 /* Pods-Shoppy WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 322WP4362D;
+				IBSC_MODULE = Shoppy_WatchKit_App_Extension;
+				INFOPLIST_FILE = "Shoppy WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = net.4DWare.Shoppy.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		492C22E92001A0CF00F1937E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8EC42AD892D43E884D806E /* Pods-Shoppy WatchKit App Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Shoppy WatchKit App Extension/Shoppy WatchKit App Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 322WP4362D;
+				INFOPLIST_FILE = "Shoppy WatchKit App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.4DWare.Shoppy.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		492C22EA2001A0CF00F1937E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABDB1441DCC33F641262B4B9 /* Pods-Shoppy WatchKit App Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Shoppy WatchKit App Extension/Shoppy WatchKit App Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 322WP4362D;
+				INFOPLIST_FILE = "Shoppy WatchKit App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.4DWare.Shoppy.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		49634A751FF2CCBD00FF81D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49634A761FF2CCBD00FF81D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49634A781FF2CCBD00FF81D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6805FA493491E27A2DC8900A /* Pods-Shoppy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Shoppy/Shoppy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 322WP4362D;
+				INFOPLIST_FILE = Shoppy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.4DWare.Shoppy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49634A791FF2CCBD00FF81D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C34866E45574B1AD326DC3 /* Pods-Shoppy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Shoppy/Shoppy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 322WP4362D;
+				INFOPLIST_FILE = Shoppy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.4DWare.Shoppy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49634A7B1FF2CCBD00FF81D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3768E93A5AB56FA9D51E8CFE /* Pods-ShoppyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 322WP4362D;
+				INFOPLIST_FILE = ShoppyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.4DWare.ShoppyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoppy.app/Shoppy";
+			};
+			name = Debug;
+		};
+		49634A7C1FF2CCBD00FF81D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D029B8EA2183AB8E0F516968 /* Pods-ShoppyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 322WP4362D;
+				INFOPLIST_FILE = ShoppyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.4DWare.ShoppyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoppy.app/Shoppy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		492C22EB2001A0CF00F1937E /* Build configuration list for PBXNativeTarget "Shoppy WatchKit App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492C22E92001A0CF00F1937E /* Debug */,
+				492C22EA2001A0CF00F1937E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492C22ED2001A0CF00F1937E /* Build configuration list for PBXNativeTarget "Shoppy WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492C22E72001A0CF00F1937E /* Debug */,
+				492C22E82001A0CF00F1937E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49634A551FF2CCBD00FF81D6 /* Build configuration list for PBXProject "Shoppy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49634A751FF2CCBD00FF81D6 /* Debug */,
+				49634A761FF2CCBD00FF81D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49634A771FF2CCBD00FF81D6 /* Build configuration list for PBXNativeTarget "Shoppy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49634A781FF2CCBD00FF81D6 /* Debug */,
+				49634A791FF2CCBD00FF81D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49634A7A1FF2CCBD00FF81D6 /* Build configuration list for PBXNativeTarget "ShoppyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49634A7B1FF2CCBD00FF81D6 /* Debug */,
+				49634A7C1FF2CCBD00FF81D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49634A521FF2CCBD00FF81D6 /* Project object */;
+}
